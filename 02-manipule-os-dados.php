@@ -11,8 +11,8 @@ $sumRating += 10;
 $averageRating = $sumRating / 4;
 $available = false;
 if ($available) {
-
     $available = "sim";
+} else {
+    $available = "não";
 }
-else {$available = "não";}
 echo "Nome do filme: $filmName\nAno de lançamento: $yearOfRelease\nMédia de: $averageRating\nDisponivél no plano: $available\n";
