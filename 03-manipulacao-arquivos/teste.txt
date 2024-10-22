@@ -1,0 +1,2 @@
+teste linha 1
+PHP é incrível!
